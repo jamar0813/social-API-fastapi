@@ -2,3 +2,6 @@ __pycache__
 learnAPIs/
 .env
 version_code/
+.dockerignore
+docker-compose-dev.yaml
+docker-compose-prod.yaml
