@@ -16,3 +16,5 @@ class Settings(BaseSettings):
         env_file = '.env'
 
 settings = Settings()
+
+# Create 1 env file with everything def
