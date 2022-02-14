@@ -1,5 +1,3 @@
-# Learning APIs Project from https://youtu.be/0sOvCWFmrtA
-# Last Stop: 13:05:43
 from fastapi import FastAPI
 from . import models
 from .database import engine
@@ -10,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 #setting the db engine
 #models.Base.metadata.create_all(bind=engine) #setup alembic so no longer required
 
-# origins that can send API calls
+# origins that can send API calls 
 origins = [
     "http://localhost",
     "http://localhost:8000"
